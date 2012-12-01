@@ -16,7 +16,7 @@ Usage
 
 Use of this module requires that you have a MaxMind API key (and GeoNames username if you want the
 higher-resolution cross-street information for U.S.-based addresses). Simply put these keys in the
-module config file. The module contains a built-in route '/info/<lat>/<lon>' that will return JSON
+module config file. The module contains a built-in route '/info/`$lat`/`$lon`' that will return JSON
 information pertaining to the provided lat/lon arguments. If you prefer to leverage the functionality
 of the underlying class directly, here's an example of how to do it:
 
